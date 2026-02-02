@@ -14,15 +14,39 @@
     border-radius: 4px;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
+    cursor: pointer;
     
+    display: inline-flex;
+    align-items: center; 
+    gap: 10px;
+    
+}
+/* .btn img{
+    
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding-left: 16px 16px;
+} */
+
+#whiteText{
+    color: #FFFFFF;
+}
+#greenText{
+    color: #30B868;
+}
+
+header{
+      width: 100%; 
+      max-width: 1600px;
 }
 
 nav{
     background-color: #FFFFFF;
-    border: 1px solid rebeccapurple;
-    width: 100%;
-    max-width: 1600px;
+    /* border: 1px solid rebeccapurple; */
+    /* width: 100%;
+    max-width: 1600px; */
     margin: 0 auto;  
     padding:16px 120px;
     display: flex;
@@ -43,4 +67,83 @@ nav a{
     font-size: 16px;
     font-weight: 500;
     color:#000000;
+}
+.banner{
+    background-image:url(../images/hero-bg.png);
+    max-width: 1600px;
+    height: 674px;
+    padding: 125px 120px 180px 120px;
+    /* margin: 0 auto; */
+    text-align: center;
+    /* align-items: center;    */
+     
+    
+
+}
+.banner-Container{
+     /* margin: 0 auto;*/
+    
+     align-items: center; 
+     text-align: center;
+     
+}  
+.earlyAccess{
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    width: 230px;
+    height: 35px;
+    margin: 0 auto;
+    display:flex;
+
+    gap: 6px; 
+    
+} 
+.earlyAccess h6{
+    color: #469165;
+    font-size: 16px; 
+    font-weight: 400;
+}
+
+.greenCircle{
+    background-color: #469165;
+    width: 16px;
+    border-radius: 50%;
+    box-shadow:1px #87d9a9 ;
+
+}
+.bannerTitle{
+    padding: 16px 0px;
+}
+
+.bannerTitle h1{
+    font-size: 72px;
+    font-weight: 700;
+
+}
+.bannerPara{
+    padding-bottom: 32px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bannerPara p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+}
+.Bannerbtns{
+     display: inline-flex;
+    align-items: center;
+    gap:16px;
+}
+.TransparentBtn{
+     /* background-color:none; */
+     background: transparent;
+    border:1px solid #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
 }
