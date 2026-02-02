@@ -30,6 +30,18 @@
     padding-left: 16px 16px;
 } */
 
+#headingTitle{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    padding-bottom: 16px;
+}
+#discrition-Paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
 #whiteText{
     color: #FFFFFF;
 }
@@ -146,4 +158,54 @@ nav a{
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+} 
+.note{
+    /* padding: 0 120px; */
+    padding-top: 60px;
+    background-color: #FFFFFF;
+}
+.note .note-container{
+    /* padding-top: 70px; */
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.cards{
+    padding-top: 44px;
+    display: flex;
+    gap:24px;
+}
+.cards .card-container{
+    /* padding-top: 70px; */
+    max-width: 322px;
+    /* border: 1px solid red; */
+    box-shadow: 0 0 8px 0 #0000001c;
+    padding: 69px 24px 20px 24px;
+    align-items: center;
+}
+.cards .card-container .image-circle{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin: 0 auto;
+   
+
+
+}
+.cards .card-container .image-circle img{
+   padding: 14px;
+}
+.cards .card-container h4{
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+   
+}
+.cards .card-container p{
+    padding-top: 16px;
+    text-align: center;
+    margin: 0 auto;
 }
