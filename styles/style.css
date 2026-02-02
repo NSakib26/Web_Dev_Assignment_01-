@@ -275,6 +275,7 @@ nav a{
     width: 85%;
     max-width: 1600px;
     background-color: #F7F6F2;
+    border-radius:12px ;
     text-align: center;
     margin: 0 auto;
 
@@ -292,3 +293,56 @@ nav a{
 .ready .ready-container .readypara{
     padding-top: 16px;
 }
+footer{
+    
+    max-width: 1600px;
+    padding: 120px 120px 20px 120px;
+    background-color: #001931;
+
+}
+.footer-container{
+   
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+.social-links-container .social-text h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.social-links{
+    
+    display: flex;
+    gap:16px;
+   
+
+}
+.copyright{
+  
+    padding-top: 80px;
+    text-align: center;
+    
+    /* align-items: center;*/
+} 
+.copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+   
+}
+.copyright p{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color:#FAFAFA;
+    padding-bottom: 0;
+}
+   
