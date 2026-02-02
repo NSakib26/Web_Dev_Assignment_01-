@@ -264,3 +264,31 @@ nav a{
     color: #001931;
     gap:6px;
 }
+.ready{
+    max-width: 1600px;
+    background-color: #ffffffd1;
+    padding: 0px 120px 120px 120px;
+}
+.ready .ready-container{
+  
+    padding: 80px 40px; 
+    width: 85%;
+    max-width: 1600px;
+    background-color: #F7F6F2;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.ready .ready-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.ready .ready-container .ready-btn {
+    padding-top: 24px;
+
+}
+.ready .ready-container .readypara{
+    padding-top: 16px;
+}
