@@ -22,6 +22,10 @@
     gap: 10px;
     
 }
+.btn:hover{
+    background-color: #5e432cdf;
+    box-shadow: 0 6px 12px #6962b9;
+}
 /* .btn img{
     
     align-items: center;
@@ -160,6 +164,11 @@ nav a{
     font-weight: 500;
     cursor: pointer;
 } 
+
+.TransparentBtn:hover{
+    background-color: #5e432cdf;
+    box-shadow: 0 6px 12px #6962b9;
+}
 .note{
     /* padding: 0 120px; */
     max-width: 1600px;
